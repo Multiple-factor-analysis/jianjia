@@ -4,6 +4,11 @@ data_raw<-read.csv("D:/stat/wines.csv")
 #Pick the useful part
 data<-data_raw[,2:54]
 
+# print method
+print.mfa(review)
+# plot method
+plot.mfa(review)
+
 #Make a list store the block division
 pick1<-list(seq(1,6),seq(7,12),seq(13,18),seq(19,23),seq(24,29),
             seq(30,34),seq(35,38),seq(39,44),seq(45,49),seq(50,53))
