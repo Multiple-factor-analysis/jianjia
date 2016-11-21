@@ -1,5 +1,3 @@
-x <- review
-
 plot.mfa <- function(x, ...) {
 ################## eigenvalues #####################
   pdf("eigen value.pdf")
